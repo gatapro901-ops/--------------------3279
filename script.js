@@ -1,0 +1,1 @@
+const passwordInput = document.querySelector('input[type="password"]');const submitButton = document.querySelector('button[type="submit"]');submitButton.addEventListener('click', (e) => {e.preventDefault();const password = passwordInput.value;if (password === 'البارول الصحيح') {window.location.href = 'dashboard.html';} else {alert('الباسوورد خطأ');}});
